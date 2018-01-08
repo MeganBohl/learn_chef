@@ -3,12 +3,12 @@ driver:
   name: azurerm
 
 driver_config:
-  subscription_id: 1270a218-620b-4c61-8864-8e4bb50c213e
+  subscription_id: 
   location: 'South Central US'
   machine_size: 'Standard_B1s' 
 
 transport: 
-  ssh_key: /home/mbohl/.ssh/id_rsa
+  ssh_key: /home
 
 provisioner:
   name: chef_zero
