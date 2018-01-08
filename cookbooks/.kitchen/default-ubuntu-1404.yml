@@ -1,0 +1,12 @@
+---
+uuid: 6e0a8f0e9896e7d9
+server_id: vm6e0a8f0e9896e7d9
+azure_resource_group_name: kitchen-default-ubuntu-1404-20180106T014107
+subscription_id: 1270a218-620b-4c61-8864-8e4bb50c213e
+username: azure
+vm_name: ubuntu-vm
+azure_environment: Azure
+use_managed_disks: true
+hostname: 23.102.179.86
+last_action: create
+last_error: Kitchen::ActionFailed

@@ -1,0 +1,135 @@
+I, [2018-01-06T01:45:49.491983 #6091]  INFO -- default-ubuntu-1404: -----> Converging <default-ubuntu-1404>...
+I, [2018-01-06T01:45:49.493139 #6091]  INFO -- default-ubuntu-1404: Preparing files for transfer
+I, [2018-01-06T01:45:49.493367 #6091]  INFO -- default-ubuntu-1404: Preparing dna.json
+I, [2018-01-06T01:45:49.493748 #6091]  INFO -- default-ubuntu-1404: Berksfile, Cheffile, cookbooks/, or metadata.rb not found so Chef will run with effectively no cookbooks. Is this intended?
+I, [2018-01-06T01:45:49.494148 #6091]  INFO -- default-ubuntu-1404: Removing non-cookbook files before transfer
+I, [2018-01-06T01:45:49.494992 #6091]  INFO -- default-ubuntu-1404: Preparing validation.pem
+I, [2018-01-06T01:45:49.495357 #6091]  INFO -- default-ubuntu-1404: Preparing client.rb
+I, [2018-01-06T01:46:16.973021 #6091]  INFO -- default-ubuntu-1404: -----> Installing Chef Omnibus (install only if missing)
+I, [2018-01-06T01:46:16.973485 #6091]  INFO -- default-ubuntu-1404: Downloading https://omnitruck.chef.io/install.sh to file /tmp/install.sh
+I, [2018-01-06T01:46:16.973802 #6091]  INFO -- default-ubuntu-1404: Trying wget...
+I, [2018-01-06T01:46:17.952604 #6091]  INFO -- default-ubuntu-1404: Download complete.
+I, [2018-01-06T01:46:17.964219 #6091]  INFO -- default-ubuntu-1404: ubuntu 14.04 x86_64
+I, [2018-01-06T01:46:17.964568 #6091]  INFO -- default-ubuntu-1404: Getting information for chef stable  for ubuntu...
+I, [2018-01-06T01:46:17.964859 #6091]  INFO -- default-ubuntu-1404: downloading https://omnitruck.chef.io/stable/chef/metadata?v=&p=ubuntu&pv=14.04&m=x86_64
+I, [2018-01-06T01:46:17.965188 #6091]  INFO -- default-ubuntu-1404:   to file /tmp/install.sh.1947/metadata.txt
+I, [2018-01-06T01:46:17.965467 #6091]  INFO -- default-ubuntu-1404: trying wget...
+I, [2018-01-06T01:46:18.501318 #6091]  INFO -- default-ubuntu-1404: sha1	968d6f567dc45ab4cd8d8f94a5e43d781a1d5ba1
+I, [2018-01-06T01:46:18.501749 #6091]  INFO -- default-ubuntu-1404: sha256	c523feb2494b407d71c56261035a58b6897ec6312f917477ef0b3fc4e27c072d
+I, [2018-01-06T01:46:18.502104 #6091]  INFO -- default-ubuntu-1404: url	https://packages.chef.io/files/stable/chef/13.6.4/ubuntu/14.04/chef_13.6.4-1_amd64.deb
+I, [2018-01-06T01:46:18.502442 #6091]  INFO -- default-ubuntu-1404: version	13.6.4
+I, [2018-01-06T01:46:18.502754 #6091]  INFO -- default-ubuntu-1404: downloaded metadata file looks valid...
+I, [2018-01-06T01:46:18.507059 #6091]  INFO -- default-ubuntu-1404: downloading https://packages.chef.io/files/stable/chef/13.6.4/ubuntu/14.04/chef_13.6.4-1_amd64.deb
+I, [2018-01-06T01:46:18.507389 #6091]  INFO -- default-ubuntu-1404:   to file /tmp/install.sh.1947/chef_13.6.4-1_amd64.deb
+I, [2018-01-06T01:46:18.507678 #6091]  INFO -- default-ubuntu-1404: trying wget...
+I, [2018-01-06T01:46:19.512125 #6091]  INFO -- default-ubuntu-1404: Comparing checksum with sha256sum...
+I, [2018-01-06T01:46:19.843036 #6091]  INFO -- default-ubuntu-1404: 
+I, [2018-01-06T01:46:19.843567 #6091]  INFO -- default-ubuntu-1404: WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+I, [2018-01-06T01:46:19.843821 #6091]  INFO -- default-ubuntu-1404: 
+I, [2018-01-06T01:46:19.844143 #6091]  INFO -- default-ubuntu-1404: You are installing an omnibus package without a version pin.  If you are installing
+I, [2018-01-06T01:46:19.844448 #6091]  INFO -- default-ubuntu-1404: on production servers via an automated process this is DANGEROUS and you will
+I, [2018-01-06T01:46:19.844784 #6091]  INFO -- default-ubuntu-1404: be upgraded without warning on new releases, even to new major releases.
+I, [2018-01-06T01:46:19.845111 #6091]  INFO -- default-ubuntu-1404: Letting the version float is only appropriate in desktop, test, development or
+I, [2018-01-06T01:46:19.845402 #6091]  INFO -- default-ubuntu-1404: CI/CD environments.
+I, [2018-01-06T01:46:19.845614 #6091]  INFO -- default-ubuntu-1404: 
+I, [2018-01-06T01:46:19.845862 #6091]  INFO -- default-ubuntu-1404: WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+I, [2018-01-06T01:46:19.846107 #6091]  INFO -- default-ubuntu-1404: 
+I, [2018-01-06T01:46:19.846361 #6091]  INFO -- default-ubuntu-1404: Installing chef 
+I, [2018-01-06T01:46:19.846670 #6091]  INFO -- default-ubuntu-1404: installing with dpkg...
+I, [2018-01-06T01:46:20.977062 #6091]  INFO -- default-ubuntu-1404: Selecting previously unselected package chef.
+I, [2018-01-06T01:46:22.861909 #6091]  INFO -- default-ubuntu-1404: (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 28865 files and directories currently installed.)
+I, [2018-01-06T01:46:22.862026 #6091]  INFO -- default-ubuntu-1404: Preparing to unpack .../chef_13.6.4-1_amd64.deb ...
+I, [2018-01-06T01:46:23.060255 #6091]  INFO -- default-ubuntu-1404: Unpacking chef (13.6.4-1) ...
+I, [2018-01-06T01:48:30.277766 #6091]  INFO -- default-ubuntu-1404: Setting up chef (13.6.4-1) ...
+I, [2018-01-06T01:48:30.380742 #6091]  INFO -- default-ubuntu-1404: Thank you for installing Chef!
+I, [2018-01-06T01:48:32.240689 #6091]  INFO -- default-ubuntu-1404: Transferring files to <default-ubuntu-1404>
+I, [2018-01-06T01:48:38.976718 #6091]  INFO -- default-ubuntu-1404: Starting Chef Client, version 13.6.4
+I, [2018-01-06T01:48:40.462317 #6091]  INFO -- default-ubuntu-1404: Creating a new client identity for default-ubuntu-1404 using the validator key.
+I, [2018-01-06T01:48:40.549622 #6091]  INFO -- default-ubuntu-1404: resolving cookbooks for run list: ["learn_chef_apache2::default"]
+I, [2018-01-06T01:48:40.550383 #6091]  INFO -- default-ubuntu-1404: 
+I, [2018-01-06T01:48:40.550895 #6091]  INFO -- default-ubuntu-1404: ================================================================================
+I, [2018-01-06T01:48:40.551203 #6091]  INFO -- default-ubuntu-1404: Error Resolving Cookbooks for Run List:
+I, [2018-01-06T01:48:40.551503 #6091]  INFO -- default-ubuntu-1404: ================================================================================
+I, [2018-01-06T01:48:40.551777 #6091]  INFO -- default-ubuntu-1404: 
+I, [2018-01-06T01:48:40.552090 #6091]  INFO -- default-ubuntu-1404: Missing Cookbooks:
+I, [2018-01-06T01:48:40.552380 #6091]  INFO -- default-ubuntu-1404: ------------------
+I, [2018-01-06T01:48:40.552653 #6091]  INFO -- default-ubuntu-1404: No such cookbook: learn_chef_apache2
+I, [2018-01-06T01:48:40.552865 #6091]  INFO -- default-ubuntu-1404: 
+I, [2018-01-06T01:48:40.553147 #6091]  INFO -- default-ubuntu-1404: Expanded Run List:
+I, [2018-01-06T01:48:40.553435 #6091]  INFO -- default-ubuntu-1404: ------------------
+I, [2018-01-06T01:48:40.553680 #6091]  INFO -- default-ubuntu-1404: * learn_chef_apache2::default
+I, [2018-01-06T01:48:40.553907 #6091]  INFO -- default-ubuntu-1404: 
+I, [2018-01-06T01:48:40.554194 #6091]  INFO -- default-ubuntu-1404: System Info:
+I, [2018-01-06T01:48:40.554435 #6091]  INFO -- default-ubuntu-1404: ------------
+I, [2018-01-06T01:48:40.554711 #6091]  INFO -- default-ubuntu-1404: chef_version=13.6.4
+I, [2018-01-06T01:48:40.554953 #6091]  INFO -- default-ubuntu-1404: platform=ubuntu
+I, [2018-01-06T01:48:40.555206 #6091]  INFO -- default-ubuntu-1404: platform_version=14.04
+I, [2018-01-06T01:48:40.555465 #6091]  INFO -- default-ubuntu-1404: ruby=ruby 2.4.2p198 (2017-09-14 revision 59899) [x86_64-linux]
+I, [2018-01-06T01:48:40.555736 #6091]  INFO -- default-ubuntu-1404: program_name=chef-client worker: ppid=2143;start=01:48:33;
+I, [2018-01-06T01:48:40.556013 #6091]  INFO -- default-ubuntu-1404: executable=/opt/chef/bin/chef-client
+I, [2018-01-06T01:48:40.556294 #6091]  INFO -- default-ubuntu-1404: 
+I, [2018-01-06T01:48:40.556522 #6091]  INFO -- default-ubuntu-1404: 
+I, [2018-01-06T01:48:40.556816 #6091]  INFO -- default-ubuntu-1404: Running handlers:
+I, [2018-01-06T01:48:40.557179 #6091]  INFO -- default-ubuntu-1404: [2018-01-06T01:48:40+00:00] ERROR: Running exception handlers
+I, [2018-01-06T01:48:40.557465 #6091]  INFO -- default-ubuntu-1404: [2018-01-06T01:48:40+00:00] ERROR: Running exception handlers
+I, [2018-01-06T01:48:40.557753 #6091]  INFO -- default-ubuntu-1404: Running handlers complete
+I, [2018-01-06T01:48:40.558040 #6091]  INFO -- default-ubuntu-1404: [2018-01-06T01:48:40+00:00] ERROR: Exception handlers complete
+I, [2018-01-06T01:48:40.558308 #6091]  INFO -- default-ubuntu-1404: [2018-01-06T01:48:40+00:00] ERROR: Exception handlers complete
+I, [2018-01-06T01:48:40.558570 #6091]  INFO -- default-ubuntu-1404: Chef Client failed. 0 resources updated in 07 seconds
+I, [2018-01-06T01:48:40.558905 #6091]  INFO -- default-ubuntu-1404: [2018-01-06T01:48:40+00:00] FATAL: Stacktrace dumped to /tmp/kitchen/cache/chef-stacktrace.out
+I, [2018-01-06T01:48:40.559170 #6091]  INFO -- default-ubuntu-1404: [2018-01-06T01:48:40+00:00] FATAL: Stacktrace dumped to /tmp/kitchen/cache/chef-stacktrace.out
+I, [2018-01-06T01:48:40.559455 #6091]  INFO -- default-ubuntu-1404: [2018-01-06T01:48:40+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+I, [2018-01-06T01:48:40.559739 #6091]  INFO -- default-ubuntu-1404: [2018-01-06T01:48:40+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+I, [2018-01-06T01:48:40.560053 #6091]  INFO -- default-ubuntu-1404: [2018-01-06T01:48:40+00:00] ERROR: 412 "Precondition Failed"
+I, [2018-01-06T01:48:40.560365 #6091]  INFO -- default-ubuntu-1404: [2018-01-06T01:48:40+00:00] ERROR: 412 "Precondition Failed"
+I, [2018-01-06T01:48:40.565241 #6091]  INFO -- default-ubuntu-1404: [2018-01-06T01:48:40+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+I, [2018-01-06T01:48:40.565557 #6091]  INFO -- default-ubuntu-1404: [2018-01-06T01:48:40+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+E, [2018-01-06T01:48:40.579096 #6091] ERROR -- default-ubuntu-1404: Converge failed on instance <default-ubuntu-1404>.
+E, [2018-01-06T01:48:40.579209 #6091] ERROR -- default-ubuntu-1404: ------Exception-------
+E, [2018-01-06T01:48:40.579245 #6091] ERROR -- default-ubuntu-1404: Class: Kitchen::ActionFailed
+E, [2018-01-06T01:48:40.579272 #6091] ERROR -- default-ubuntu-1404: Message: SSH exited (1) for command: [sh -c '
+TEST_KITCHEN="1"; export TEST_KITCHEN
+sudo -E /opt/chef/bin/chef-client --local-mode --config /tmp/kitchen/client.rb --log_level auto --force-formatter --no-color --json-attributes /tmp/kitchen/dna.json --chef-zero-port 8889 
+']
+E, [2018-01-06T01:48:40.579297 #6091] ERROR -- default-ubuntu-1404: ----------------------
+E, [2018-01-06T01:48:40.579322 #6091] ERROR -- default-ubuntu-1404: ------Backtrace-------
+E, [2018-01-06T01:48:40.579347 #6091] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/provisioner/base.rb:83:in `rescue in call'
+E, [2018-01-06T01:48:40.579372 #6091] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/provisioner/base.rb:86:in `call'
+E, [2018-01-06T01:48:40.579398 #6091] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:393:in `block in converge_action'
+E, [2018-01-06T01:48:40.579452 #6091] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:536:in `synchronize_or_call'
+E, [2018-01-06T01:48:40.579485 #6091] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:498:in `block in action'
+E, [2018-01-06T01:48:40.579512 #6091] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/2.4.0/benchmark.rb:293:in `measure'
+E, [2018-01-06T01:48:40.579567 #6091] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:497:in `action'
+E, [2018-01-06T01:48:40.579608 #6091] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:389:in `converge_action'
+E, [2018-01-06T01:48:40.579638 #6091] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:368:in `block in transition_to'
+E, [2018-01-06T01:48:40.579664 #6091] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:367:in `each'
+E, [2018-01-06T01:48:40.579689 #6091] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:367:in `transition_to'
+E, [2018-01-06T01:48:40.579714 #6091] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:135:in `converge'
+E, [2018-01-06T01:48:40.579739 #6091] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/command.rb:197:in `public_send'
+E, [2018-01-06T01:48:40.579764 #6091] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/command.rb:197:in `run_action_in_thread'
+E, [2018-01-06T01:48:40.579794 #6091] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/command.rb:169:in `block (2 levels) in run_action'
+E, [2018-01-06T01:48:40.579820 #6091] ERROR -- default-ubuntu-1404: ----End Backtrace-----
+E, [2018-01-06T01:48:40.579845 #6091] ERROR -- default-ubuntu-1404: ---Nested Exception---
+E, [2018-01-06T01:48:40.579869 #6091] ERROR -- default-ubuntu-1404: Class: Kitchen::Transport::SshFailed
+E, [2018-01-06T01:48:40.579893 #6091] ERROR -- default-ubuntu-1404: Message: SSH exited (1) for command: [sh -c '
+TEST_KITCHEN="1"; export TEST_KITCHEN
+sudo -E /opt/chef/bin/chef-client --local-mode --config /tmp/kitchen/client.rb --log_level auto --force-formatter --no-color --json-attributes /tmp/kitchen/dna.json --chef-zero-port 8889 
+']
+E, [2018-01-06T01:48:40.579918 #6091] ERROR -- default-ubuntu-1404: ----------------------
+E, [2018-01-06T01:48:40.579942 #6091] ERROR -- default-ubuntu-1404: ------Backtrace-------
+E, [2018-01-06T01:48:40.579966 #6091] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/provisioner/base.rb:83:in `rescue in call'
+E, [2018-01-06T01:48:40.579991 #6091] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/provisioner/base.rb:86:in `call'
+E, [2018-01-06T01:48:40.580016 #6091] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:393:in `block in converge_action'
+E, [2018-01-06T01:48:40.580045 #6091] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:536:in `synchronize_or_call'
+E, [2018-01-06T01:48:40.580070 #6091] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:498:in `block in action'
+E, [2018-01-06T01:48:40.580096 #6091] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/2.4.0/benchmark.rb:293:in `measure'
+E, [2018-01-06T01:48:40.580120 #6091] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:497:in `action'
+E, [2018-01-06T01:48:40.580145 #6091] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:389:in `converge_action'
+E, [2018-01-06T01:48:40.580170 #6091] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:368:in `block in transition_to'
+E, [2018-01-06T01:48:40.580195 #6091] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:367:in `each'
+E, [2018-01-06T01:48:40.580226 #6091] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:367:in `transition_to'
+E, [2018-01-06T01:48:40.580253 #6091] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:135:in `converge'
+E, [2018-01-06T01:48:40.580278 #6091] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/command.rb:197:in `public_send'
+E, [2018-01-06T01:48:40.580307 #6091] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/command.rb:197:in `run_action_in_thread'
+E, [2018-01-06T01:48:40.580333 #6091] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/command.rb:169:in `block (2 levels) in run_action'
+E, [2018-01-06T01:48:40.580357 #6091] ERROR -- default-ubuntu-1404: ----End Backtrace-----
